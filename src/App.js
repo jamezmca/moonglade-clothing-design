@@ -1,19 +1,9 @@
+import TaikaIki from "./components/TaikaIki";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <p>
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div style={{display: 'flex', flexDirection: 'column', width: '100vw'}}>
+        <TaikaIki/>
     </div>
   );
 }
