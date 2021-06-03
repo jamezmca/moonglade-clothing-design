@@ -1,9 +1,9 @@
-import TaikaIki from "./components/TaikaIki";
+import TiakiIka from "./components/TiakiIka";
 
 function App() {
   return (
-    <div style={{display: 'flex', flexDirection: 'column', width: '100vw'}}>
-        <TaikaIki/>
+    <div style={{ width: '100vw', display: 'inline-block'}}>
+        <TiakiIka/>
     </div>
   );
 }
