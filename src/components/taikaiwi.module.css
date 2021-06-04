@@ -1,25 +1,35 @@
 @font-face {
     font-family: 'Latin';
-    src: local('Latin'), url(../assets/fonts/LatinWide.ttf) format('.tft');
+    src: local('Latin'), url(../assets/fonts/OPTILatin-BoldCondensed.otf) format('.oft');
   }
 
 h1 {
-    color: hsl(184 84% 70%);
-    font-size: 140px;
+    position: absolute;
+}
+
+h2,
+h1 {
+    color: hsl(184 100% 65%);
+    font-size: 220px;
     padding: 0;
     margin: 0;
-    letter-spacing: 20px;
-    transform: scaleX(1.2);
-    transform: scaleY(0.8);
+    letter-spacing: 7px;
+    transform: scale(0.9, 0.7);
     text-shadow: 2.5px 2.5px 2px black,
                 -2.5px -2.5px 2px black;
-    font-weight: bold;
+    font-weight: bolder;
+    line-height: 0.5em;
+}
+
+span {
+    position: absolute;
 }
 
 .taikaiwiContainer {
     width: 100vw;
-    height: 1000px;
+    height: 1200px;
     background-color: hsl(185 100% 31%);
+    /* background-color: hsla(263, 82%, 67%, 0.795); */
     font-family: 'Latin';
     display: flex;
     flex-direction: column;
@@ -28,6 +38,7 @@ h1 {
     position: relative;
     margin: 0;
     padding: 0;
+    text-align: center;
 
 }
 
@@ -67,4 +78,9 @@ h1 {
 
 img {
     max-height: 500px;
+    padding: 40px;
+
+
+
+
 }
