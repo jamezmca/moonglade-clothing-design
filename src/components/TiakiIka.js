@@ -41,6 +41,7 @@ const TiakiIka = () => {
             <h2>TIAKI</h2>
             <img src={shark} alt="shark" />
             <h2>IKA</h2>
+            <h2>海を救う</h2>
             {/* <h1 className={shirtStyles.depth} title="IWI">IWI</h1> */}
         </div>
     )
