@@ -2,8 +2,10 @@ import React from 'react'
 import * as shirtStyles from './taikaiwi.module.css'
 import shark from '../assets/images/goku.png'
 
+//ally to good
+
 const TiakiIka = () => {
-    const radius = 400
+    const radius = 380
     const arc = 160
     const characters = ["T", "I", "A", "K", "I"]
     const jap = ["善", '意', 'の', '味', '方']
