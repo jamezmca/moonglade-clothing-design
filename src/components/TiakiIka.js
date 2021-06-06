@@ -1,14 +1,14 @@
 import React from 'react'
 import * as shirtStyles from './taikaiwi.module.css'
-import shark from '../assets/images/goku.png'
+import shark from '../assets/images/marlin.png'
 
 //ally to good
 
 const TiakiIka = () => {
-    const radius = 380
+    const radius = 500
     const arc = 160
     const characters = ["T", "I", "A", "K", "I"]
-    const jap = ["善", '意', 'の', '味', '方']
+    const jap = ['か','じ','き','ま','ぐ','ろ']
     const degree = arc / jap.length
     console.log(radius, arc, characters, degree)
 
@@ -26,7 +26,7 @@ const TiakiIka = () => {
                         key={`heading-span-${i}`}
                         style={{
                             height: `${radius}px`,
-                            transform: `rotate(${degree * i - arc / 2 + 7}deg)`,
+                            transform: `rotate(${degree * i - arc / 2 +4}deg)`,
                             transformOrigin: `0 ${radius}px 0`,
                         }}>
                         {char}
