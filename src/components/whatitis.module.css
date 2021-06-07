@@ -1,6 +1,6 @@
 @font-face {
-    font-family: 'Latin';
-    src: local('Latin'), url(../assets/fonts/ALBAS.TTF) format('.ttf');
+    font-family: 'neuralol';
+    src: local('neuralol'), url(../assets/fonts/NonStop.ttf);
   }
 
 h1 {
@@ -12,10 +12,12 @@ h1 {
     color: hsl(184 100% 65%);
     text-shadow: 2.5px 2.5px 2px black,
                 -2.5px -2.5px 2px black;
+
 }
 
 span {
     position: absolute;
+
 }
 
 .taikaiwiContainer {
@@ -31,7 +33,6 @@ span {
     position: relative;
     margin: 0;
     padding: 0;
-    text-align: center;
 
 }
 
@@ -41,8 +42,10 @@ span {
     position: absolute;
     left: 48%;
     top: 10%;
-    font-size: 170px;
-    font-family: 'Latin';
+    font-size: 120px;
+    font-family: 'neuralol';
+    font-weight: bold;
+
 }
 
 /* .taikaiwiContainer span h1 {
@@ -73,7 +76,7 @@ span {
 img {
     max-height: 500px;
     margin-top: 15px;
-    opacity: 0.8;
+    opacity: 0.9;
 
 
 
