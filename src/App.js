@@ -5,7 +5,7 @@ import Whatitis from "./components/Whatitis";
 function App() {
   return (
     <div style={{ width: '100vw'}}>
-      <Whatitis/>
+      <Purple1717/>
     </div>
   );
 }

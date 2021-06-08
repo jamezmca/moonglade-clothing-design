@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'neuralol';
-    src: local('neuralol'), url(../assets/fonts/NonStop.ttf);
+    src: local('neuralol'), url(../assets/fonts/GypsyCurse-epqx.ttf);
   }
 
 h1 {
@@ -42,7 +42,7 @@ span {
     position: absolute;
     left: 48%;
     top: 10%;
-    font-size: 120px;
+    font-size: 400px;
     font-family: 'neuralol';
     font-weight: bold;
 
@@ -74,8 +74,10 @@ span {
 .depth:after  { top: -2px; left: -2px }
 
 img {
-    max-height: 500px;
-    margin-top: 15px;
+    max-height: 600px;
+    margin-top: 400px;
     opacity: 0.95;
+    padding-right: 70px;
+
 
 }
