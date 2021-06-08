@@ -1,12 +1,12 @@
 import React from 'react'
 import * as shirtStyles from './whatitis.module.css'
-import shark from '../assets/images/goku.png'
+import shark from '../assets/images/diplodicus.png'
 
 
 const Whatitis = () => {
     const radius = 2000
     const arc = 30
-    const text = 'galacticool'
+    const text = 'diplodicus'
     const characters = ["T", "I", "A", "K", "I"]
     // const jap = [' ', "I","T", " ", "I", "S", ' ', 'W', 'H', 'A', 'T', ' ', 'I', 'T', ' ', 'I', 'S']
     // const jap = ["C", 'U', 'R', 'J', 'O', 'S', 'J', 'T', 'Y']
