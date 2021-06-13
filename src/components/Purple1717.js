@@ -10,7 +10,7 @@ const Purple1717 = () => {
     const arc = 130
     const jap = ['さ','よ','う','な','ら','桜']
     const degree = arc / jap.length
-
+//hgello
     return (
         <div className={shirtStyles2.taikaiwiContainer}>
             <h1 className={shirtStyles2.moveable}>
